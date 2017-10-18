@@ -1,0 +1,5 @@
+name: Client menu
+type: module
+description: A simple block with entries to elements that clients need to always view.
+core: 8.x
+package: Custom

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains client_menu.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function client_menu_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the client_menu module.
+    case 'help.page.client_menu':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A simple block with entries to elements that clients need to always view.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

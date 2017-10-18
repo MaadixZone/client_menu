@@ -1,0 +1,14 @@
+{
+  "name": "drupal/client_menu",
+  "type": "drupal-module",
+  "description": "A simple block with entries to elements that clients need to always view.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/client_menu",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/client_menu",
+    "source": "http://cgit.drupalcode.org/client_menu"
+  },
+  "require": { }
+}
