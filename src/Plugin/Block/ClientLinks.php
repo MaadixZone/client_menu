@@ -81,7 +81,8 @@ class ClientLinks extends BlockBase implements ContainerFactoryPluginInterface {
     $build['client_links']['#items'][] = [
       '#title' => $this->t('Billing information'),
       '#type' => 'link',
-      '#url' => Url::fromRoute('entity.user.canonical', ['user' => $uid]),
+      //'#url' => Url::fromRoute('entity.user.canonical', ['user' => $uid]),
+      '#url' => Url::fromRoute('entity.profile.type.user_profile_form', ['user' => $uid, 'profile_type' => 'customer']),
     ];
     $build['client_links']['#items'][] = [
       '#title' => $this->t('View/edit account'),
